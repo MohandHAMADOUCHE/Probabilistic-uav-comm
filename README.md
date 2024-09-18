@@ -107,3 +107,14 @@ If you encounter any bugs or have suggestions, feel free to open an issue in the
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+The project is open source and free to use. Please cite this work in your publications:
+
+```bibtex
+@misc{myModel,
+  author       = {Hamadouche, Mohand},
+  title        = {Probabilistic Model for Communication Mode Selection for Autonomous Multi-UAV Systems},
+  year         = {2024},
+  url          = {https://github.com/MohandHAMADOUCHE/probabilistic-uav-comm.git},
+  note         = {GitHub repository, accessed September 18, 2024},
+}
