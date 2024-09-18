@@ -18,6 +18,11 @@ The project addresses the challenge of communication mode selection in multi-UAV
 
 ## Installation
 
+### Requirements
+
+- MATLAB (compatible with the BNT toolbox)
+- The BNT library from [https://github.com/bayesnet/bnt](https://github.com/bayesnet/bnt)
+
 ### Prerequisites
 
 This project depends on the [Bayesian Network Toolbox (BNT)](https://github.com/bayesnet/bnt). Follow these steps to set up the BNT library in MATLAB:
@@ -31,8 +36,8 @@ This project depends on the [Bayesian Network Toolbox (BNT)](https://github.com/
 
 3. Clone this project repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
+    git clone https://github.com/MohandHAMADOUCHE/probabilistic-uav-comm
+    cd probabilistic-uav-comm
     ```
 
 4. Open MATLAB and modify the variable `myPath` in the `add_bnt_paths()` function to match the path to your extracted BNT directory:
@@ -46,11 +51,6 @@ This project depends on the [Bayesian Network Toolbox (BNT)](https://github.com/
     ```matlab
     main()
     ```
-
-### Requirements
-
-- MATLAB (compatible with the BNT toolbox)
-- The BNT library from [https://github.com/bayesnet/bnt](https://github.com/bayesnet/bnt)
 
 ## Results
 
