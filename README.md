@@ -33,7 +33,7 @@ This project depends on the [Bayesian Network Toolbox (BNT)](https://github.com/
 
 2. Clone this project repository:
     ```bash
-    git clone https://github.com/MohandHAMADOUCHE/probabilistic-uav-comm
+    git clone https://github.com/MohandHAMADOUCHE/probabilistic-uav-comm.git
     cd probabilistic-uav-comm
     ```
 
