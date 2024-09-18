@@ -33,8 +33,8 @@ This project depends on the [Bayesian Network Toolbox (BNT)](https://github.com/
 
 2. Clone this project repository:
     ```bash
-    git clone https://github.com/MohandHAMADOUCHE/probabilistic-uav-comm.git
-    cd probabilistic-uav-comm
+    git clone https://github.com/MohandHAMADOUCHE/Probabilistic-uav-comm.git
+    cd Probabilistic-uav-comm
     ```
 
 3. Open MATLAB and modify the variable `myPath` in the `add_bnt_paths()` function to match the path to your extracted BNT directory:
@@ -115,6 +115,6 @@ The project is open source and free to use. Please cite this work in your public
   author       = {Hamadouche, Mohand},
   title        = {Probabilistic Model for Communication Mode Selection for Autonomous Multi-UAV Systems},
   year         = {2024},
-  url          = {https://github.com/MohandHAMADOUCHE/probabilistic-uav-comm.git},
+  url          = {https://github.com/MohandHAMADOUCHE/Probabilistic-uav-comm},
   note         = {GitHub repository, accessed September 18, 2024},
 }
