@@ -6,7 +6,6 @@ This project focuses on developing a probabilistic model for selecting communica
 
 - [Overview](#overview)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
 - [Submission](#submission)
 - [Contributing](#contributing)
