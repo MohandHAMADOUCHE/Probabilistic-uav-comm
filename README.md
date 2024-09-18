@@ -58,9 +58,12 @@ The validation version using the **GeNIe** tool can be found in the folder `GeNi
 
 #### Resulting Bayesian Network
 
-<img src="./GeNie model/BN_picture.PNG" alt="Resulting Bayesian Network" width="450"/>
+<p align="center">
+  <img src="./GeNie model/BN_picture.PNG" alt="Resulting Bayesian Network" width="400"/>
+</p>
 
-*Figure 3: The resulting Bayesian Network after validation in GeNIe.*
+
+*Figure 1: The resulting Bayesian Network after validation in GeNIe.*
 
 ### Validation with Matlab
 
@@ -73,15 +76,13 @@ These averages were obtained after several test executions, ensuring consistency
 
 #### Average CPU time images
 
-<img src="./Execution%20results/mini_avg_creation_cpu_seconds.png" alt="Average Creation CPU Time" width="450"/>
+<p align="center">
+  <img src="./Execution%20results/mini_avg_creation_cpu_seconds.png" alt="Average Creation CPU Time" width="300"/>
+  <img src="./Execution%20results/mini_avg_inference_cpu_ms.png" alt="Average Inference CPU Time" width="300"/>
+</p>
 
-*Figure 1: Average CPU time required to create the Bayesian Network.*
-
-
-<img src="./Execution%20results/mini_avg_inference_cpu_ms.png" alt="Average Inference CPU Time" width="450"/>
-
-*Figure 2: Average CPU time required to perform the inference.*
-
+*Figure 2 (left): Average CPU time required to create the Bayesian Network.  
+Figure 3 (right): Average CPU time required to perform the inference.*
 #### Potential Speedup
 
 On their [website](https://www.cs.ubc.ca/~murphyk/Software/BNT/usage_02nov13.html#installC), they mention that using a C implementation could provide a **5 to 10 times speedup** in performance. This could significantly reduce the execution time for both the creation of the Bayesian Network and the inference process, making it even more suitable for real-time applications.
