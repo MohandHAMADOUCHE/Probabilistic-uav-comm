@@ -32,27 +32,37 @@ This project depends on the [Bayesian Network Toolbox (BNT)](https://github.com/
     git clone https://github.com/bayesnet/bnt.git
     ```
 
-2. Decompress the downloaded archive. Inside the folder, you will find `FullBNT.zip`. Unzip this file.
-
-3. Clone this project repository:
+2. Clone this project repository:
     ```bash
     git clone https://github.com/MohandHAMADOUCHE/probabilistic-uav-comm
     cd probabilistic-uav-comm
     ```
 
-4. Open MATLAB and modify the variable `myPath` in the `add_bnt_paths()` function to match the path to your extracted BNT directory:
+3. Open MATLAB and modify the variable `myPath` in the `add_bnt_paths()` function to match the path to your extracted BNT directory:
 
     ```matlab
-    myPath = genpathKPM('C:\Users\info\Downloads\bnt-master\bnt-master');  % Modify this path as needed
+    myPath = genpathKPM('C:\Users\info\Downloads\bnt\bnt');  % Modify this path as needed
     ```
 
-5. Execute the `main()` function in MATLAB to run the project:
+4. Execute the `main()` function in MATLAB to run the project:
 
     ```matlab
     main()
     ```
 
 ## Results
+
+### Validation with GeNIe
+
+The validation version using the **GeNIe** tool can be found in the folder `GeNie model`, in the file `Communication_network_selection_BN.xdsl`. GeNIe is a tool for modeling and inference of Bayesian Networks. You can download the GeNIe tool from their [official website](https://www.bayesfusion.com/genie/).
+
+#### Resulting Bayesian Network
+
+<img src="./GeNie model/BN_picture.PNG" alt="Resulting Bayesian Network" width="450"/>
+
+*Figure 3: The resulting Bayesian Network after validation in GeNIe.*
+
+### Validation with Matlab
 
 I performed multiple runs to determine the **average CPU time** for both creating the Bayesian Network and performing the inference.
 
@@ -61,17 +71,18 @@ I performed multiple runs to determine the **average CPU time** for both creatin
 
 These averages were obtained after several test executions, ensuring consistency in performance across different runs.
 
-### Images
+#### Average CPU time images
 
-![Average Creation CPU Time](./Execution%20results/mini_avg_creation_cpu_seconds.png)
+<img src="./Execution%20results/mini_avg_creation_cpu_seconds.png" alt="Average Creation CPU Time" width="450"/>
 
 *Figure 1: Average CPU time required to create the Bayesian Network.*
 
-![Average Inference CPU Time](./Execution%20results/mini_avg_inference_cpu_ms.png)
+
+<img src="./Execution%20results/mini_avg_inference_cpu_ms.png" alt="Average Inference CPU Time" width="450"/>
 
 *Figure 2: Average CPU time required to perform the inference.*
 
-### Potential Speedup
+#### Potential Speedup
 
 On their [website](https://www.cs.ubc.ca/~murphyk/Software/BNT/usage_02nov13.html#installC), they mention that using a C implementation could provide a **5 to 10 times speedup** in performance. This could significantly reduce the execution time for both the creation of the Bayesian Network and the inference process, making it even more suitable for real-time applications.
 
