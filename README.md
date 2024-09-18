@@ -17,12 +17,12 @@ The project addresses the challenge of communication mode selection in multi-UAV
 
 ## Installation
 
-### Requirements
+### System Requirements
 
 - MATLAB (compatible with the BNT toolbox)
 - The BNT library from [https://github.com/bayesnet/bnt](https://github.com/bayesnet/bnt)
 
-### Prerequisites
+### Getting Started
 
 This project depends on the [Bayesian Network Toolbox (BNT)](https://github.com/bayesnet/bnt). Follow these steps to set up the BNT library in MATLAB:
 
